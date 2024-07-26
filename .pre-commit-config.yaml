@@ -5,6 +5,5 @@ repos:
     hooks:
       - id: check-zero-kb-files
         name: Check for 0 KB files
-        entry: scripts/check-zero-kb-file.sh
         language: script
         files: .*
