@@ -1,7 +1,7 @@
 ---
 repos:
   - repo: https://github.com/saikiransunkara/my-pre-commit-hooks
-    rev: main
+    rev: v1.0.0
     hooks:
       - id: check-zero-kb-files
         name: Check for 0 KB files
