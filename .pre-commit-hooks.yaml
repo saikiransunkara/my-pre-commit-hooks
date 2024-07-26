@@ -3,4 +3,6 @@
     description: prevents committing zero kb files.
     entry: scripts/check-zero-KB-file.sh
     language: script
+    files: .*
+    exclude: ^.pre*
 	
