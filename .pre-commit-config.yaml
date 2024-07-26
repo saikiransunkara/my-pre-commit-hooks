@@ -1,9 +1,10 @@
 ---
 repos:
-  - repo: https://github.com/saikiransunkara/my-pre-commit-hooks/scripts
+  - repo: https://github.com/saikiransunkara/my-pre-commit-hooks
     rev: v1.0.0
     hooks:
       - id: check-zero-kb-files
         name: Check for 0 KB files
         language: script
         files: .*
+        entry: scripts/check-zero-kb-file.sh
