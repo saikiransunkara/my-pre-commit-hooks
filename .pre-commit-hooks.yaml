@@ -1,0 +1,6 @@
+-   id: check-zero-KB-file
+    name: check for zero KB files
+    description: prevents committing zero kb files.
+    entry: scripts/check-zero-KB-file.sh
+    language: script
+	
