@@ -1,6 +1,6 @@
 ---
 repos:
-  - repo: https://github.com/saikiransunkara/my-pre-commit-hooks/scripts
+  - repo: https://github.com/saikiransunkara/my-pre-commit-hooks.git
     rev: v1.0.0
     hooks:
       - id: check-zero-kb-files
